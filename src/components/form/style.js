@@ -25,7 +25,26 @@ const styles = StyleSheet.create({
     input: {
         width: "90%",
         borderRadius: 50,
-        backgroundColor: "#f6f6f6"
+        backgroundColor: "#f6f6f6",
+        height: 40,
+        margin: 12,
+        paddingLeft: 10
+    },
+    buttonCalculator:{
+        borderRadius: 50,
+        alignItems: "center",
+        justifyContent: "center",
+        width: "90%",
+        backgroundColor: "#ff0043",
+        paddingTop: 14,
+        paddingBottom: 14,
+        marginLeft: 12,
+        marginTop: 30
+    },
+    TextButtonCalculator:{
+        fontSize: 20,
+        color: "#ffffff",
+        
     }
 
     });
